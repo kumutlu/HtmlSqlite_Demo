@@ -14,8 +14,7 @@ print ("Opened database successfully")
 
 @app.route('/home')
 def home():
-    return 'hey'
-    #return render_template('home.html')
+    return render_template('home.html')
 
 
 @app.route('/enternew')
